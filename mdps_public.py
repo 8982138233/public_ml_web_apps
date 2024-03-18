@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 """
-Created on Sun May  8 21:01:15 2022
+Created on friday March  15 21:01:15 2024
 
-@author: siddhardhan
+@author: Rudra sharma and Shruti mishra
 """
 
 import pickle
@@ -13,10 +13,6 @@ from streamlit_option_menu import option_menu
 # loading the saved models
 
 diabetes_model = pickle.load(open('diabetes_model.sav', 'rb'))
-
-heart_disease_model = pickle.load(open('heart_disease_model.sav', 'rb'))
-
-parkinsons_model = pickle.load(open('parkinsons_model.sav', 'rb'))
 
 
 
